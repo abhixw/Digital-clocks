@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    background-color: #222;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+.stopwatch {
+    background-color: #333;
+    padding: 30px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+}
+
+#display {
+    font-size: 4em;
+    margin-bottom: 20px;
+}
+
+.buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn {
+    font-size: 1.5em;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.start {
+    background-color: #4CAF50;
+}
+
+.stop {
+    background-color: #F44336;
+}
+
+.reset {
+    background-color: #2196F3;
+}
+
+.btn:hover {
+    opacity: 0.8;
+}
+
+.timezones {
+    background-color: #333;
+    padding: 20px;
+    border-radius: 15px;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 1.8em;
+}
+
+#local-time, #ny-time, #ldn-time, #syd-time {
+    font-size: 1.2em;
+}
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url("C:\Users\DELL\Downloads\purple-blue-tropical-leaves-background_45024-1354.avif");
+}
